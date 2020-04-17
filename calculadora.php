@@ -4,11 +4,13 @@
 <title>Resultado</title>
 </head>
 
-<body align="center" bgcolor="00FFFF">
-
+<body align="center" bgcolor="#a95092">
+<div >
 <header>
-<h1>RESPUESTA</h1>
+<font color="#ffffff"><h1>RESPUESTA</h1></font>
 </header>
+</div>
+
 
 <section>
 <?php 

@@ -1,10 +1,10 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="diseño.css" />
+    <link rel="stylesheet" type="text/css" href="diseño.css" />
 <title>Resultado</title>
 </head>
 
-<body>
+<body align="center" bgcolor="00FFFF">
 
 <header>
 <h1>RESPUESTA</h1>

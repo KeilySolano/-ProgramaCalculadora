@@ -2,35 +2,43 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="diseño.css"
-<title>Calculadora</title>
+  
 </head>
 
-<body> 
+<body>
+    <img src="Calculadora.png" />
+    <div>
+        <h1>Calculadora</h1>
+    </div>
 
-<div>
-<h1>Calculadora</h1>
-</div>
+    <div>
+        <form method="post" action="calculadora.php">
+            <label for="1er">Primer Valor</label>
+            <p>
+                <input type="text" name="1er" id="1er" placeholder="Ingrese valor" />
+                <br /><br />
+            </p>
+            <label for="2do">Segundo Valor</label>
+            <p>
+                <input type="text" name="2do" id="2do" placeholder="Ingrese valor" />
+                <br /><br />
+            </p>
 
-<div>
-<form method="post" action="calculadora.php">
-<label for="1er">Primer Valor</label>
-<input type="text" name="1er" id="1er" placeholder="Ingrese valor"/>
-<br /><br />
-<label for="2do">Segundo Valor</label>
-<input type="text" name="2do" id="2do" placeholder="Ingrese valor"/>
-<br /><br />
+            <label>Operacion</label>
+            <select name="operaciones">
+                <option value="suma">Suma</option>
+                <option value="resta">Resta</option>
+                <option value="mult">Multiplicacion</option>
+                <option value="divs">Division</option>
+            </select>
 
-<label>Operacion</label>
-<select name="operaciones">
-<option value="suma">Suma</option>
-<option value="resta">Resta</option>
-<option value="mult">Multiplicacion</option>
-<option value="divs">Division</option>
-</select>
-
-<input type="submit" value="Calcular"/>
-</form>
-</div>
-
+            <input type="submit" value="Calcular" />
+        </form>
+    </div>
+    <ol>
+        <li>INTEGRANTES</li>
+        <li>Keily Solano</li>
+        <li>Maria Fernanda Garcia</li>
+    </ol>
 </body>
 </html>

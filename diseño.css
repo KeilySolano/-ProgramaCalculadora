@@ -1,4 +1,31 @@
-﻿body
-{
-    background-image:url(fondo.png);
+﻿html {
+    text-align:center;
+}
+body {
+    background-image: url(fondo.png);
+    font: 100;
+    font-family: 'Viner Hand ITC';
+    padding: 45px
+}
+h1 {
+    font-size:60px;
+    color:#e98fd7;
+}
+Calculadora.png{
+    text-align:center;
+    border:5px solid;
+    border-radius:50%;
+}
+img {
+    height: 200px;
+}
+li {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+}
+label {
+    color: #a37892;
+    font-weight: bolder;
+    font-size: 30px;
 }
